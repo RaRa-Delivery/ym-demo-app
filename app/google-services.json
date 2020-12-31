@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "215177825127",
+    "firebase_url": "https://ym-rara-dev.firebaseio.com",
+    "project_id": "ym-rara-dev",
+    "storage_bucket": "ym-rara-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215177825127:android:e4042c51a5a957eabbbdc2",
+        "android_client_info": {
+          "package_name": "com.rara.delivery.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215177825127-822egln79vibvnliq07o74u9i58jnde6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKgC2VhxNb3C2FTNr-KOcZP1_zH_9uR3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215177825127-822egln79vibvnliq07o74u9i58jnde6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215177825127:android:98942ad2bd8e0363bbbdc2",
+        "android_client_info": {
+          "package_name": "com.rara.delivery.ymrarasample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215177825127-822egln79vibvnliq07o74u9i58jnde6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKgC2VhxNb3C2FTNr-KOcZP1_zH_9uR3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215177825127-822egln79vibvnliq07o74u9i58jnde6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

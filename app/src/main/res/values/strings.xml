@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">YM RARA Sample</string>
+    <string name="action_view_all_tickets">View All Tickets</string>
+    <string name="separator_or">OR</string>
+    <string name="action_view_one_ticket">View Ticket</string>
+    <string name="hint_ticket_id">Enter Ticket ID</string>
+</resources>
