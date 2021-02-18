@@ -3,6 +3,7 @@ package com.rara.delivery.ymrarasample
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
+import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
@@ -11,6 +12,10 @@ import io.flutter.embedding.engine.FlutterEngineCache
 import io.flutter.embedding.engine.dart.DartExecutor
 
 class MainActivity : AppCompatActivity() {
+
+    companion object{
+        private val TAG = MainActivity::class.java.simpleName
+    }
 
     private val ticketIdTextWatcher = object : TextWatcher {
         override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
@@ -71,6 +76,17 @@ class MainActivity : AppCompatActivity() {
 
         updateUI()
     }
+
+    override fun onStart() {
+        super.onStart()
+        Log.d(TAG, "onStart")
+    }
+
+    override fun onStop() {
+        super.onStop()
+        Log.d(TAG, "onStop")
+    }
+
 
     private fun init() {
         ticketIdET = findViewById(R.id.ticketIdET)
